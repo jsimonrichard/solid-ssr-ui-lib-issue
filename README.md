@@ -1,8 +1,8 @@
-MRE for ...
+MRE for https://github.com/solidjs/solid/discussions/2251
 
 ## Reproduction Steps
 
-Optionally edit the `.build.rollupOptions.external` in `ui/vite.config.ts` to add/remove the `solid-js` and `solid-js/web` deps.
+Optionally edit the `.build.rollupOptions.external` list inside the object passed to the `defineConfig` function in `ui/vite.config.ts` to add/remove the `solid-js` and `solid-js/web` deps.
 
 Then run:
 ```bash
