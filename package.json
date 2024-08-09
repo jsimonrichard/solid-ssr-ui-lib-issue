@@ -1,0 +1,7 @@
+{
+	"name": "solid-ssr-ui-lib-issue",
+	"workspaces": [
+		"ui",
+		"ssg-website"
+	]
+}
